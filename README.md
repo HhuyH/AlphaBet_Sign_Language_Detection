@@ -35,7 +35,8 @@ Kết quả cuối cùng đạt **94.62% accuracy** trên 33 ký hiệu.
 - Dưới đây là số liệu ví dụ một số lớp:
 
 ### Accuracy & Loss
-![Training Curve](results/Test loss and accuracy (CNN).png)
+![Training Curve](results/Test%20loss%20and%20accuracy%20(CNN).png)
+
 
 ### Metrics chi tiết
 Xem số liệu đầy đủ tại [metrics.txt](results/metrics.txt)
