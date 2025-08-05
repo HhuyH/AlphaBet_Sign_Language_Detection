@@ -34,14 +34,12 @@ Kết quả cuối cùng đạt **94.62% accuracy** trên 33 ký hiệu.
 - Dataset gồm **33 lớp (0–32)**, hàng nghìn mẫu mỗi lớp.
 - Dưới đây là số liệu ví dụ một số lớp:
 
-```
 ### Accuracy & Loss
 ![Training Curve](results/Test loss and accuracy (CNN).png)
 
 ### Metrics chi tiết
 Xem số liệu đầy đủ tại [metrics.txt](results/metrics.txt)
 
-```
 
 > Xem toàn bộ chi tiết trong file `metrics.txt` (hoặc notebook).
 
