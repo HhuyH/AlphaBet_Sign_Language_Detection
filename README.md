@@ -7,7 +7,7 @@ Dữ liệu được **tự thu thập và xử lý thủ công**, qua nhiều b
 
 ## 📌 Giới thiệu
 
-Ban đầu, mô hình được thử nghiệm với **Random Forest Classifier (RFC)** trên dữ liệu khung hình đầy đủ nhưng không tổng quát hoá được trên nhiều người dùng. Sau đó nhóm chuyển hướng:
+Ban đầu, mô hình được thử nghiệm với **Random Forest Classifier (RFC)** trên dữ liệu khung hình đầy đủ nhưng không tổng quát hoá được trên nhiều người dùng. Sau đó chuyển hướng:
 
 1. **Thu thập lại dữ liệu** chỉ vùng bàn tay.
 2. **Xử lý background** và áp dụng **augmentation**.
