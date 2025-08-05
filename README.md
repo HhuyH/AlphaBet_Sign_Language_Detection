@@ -44,10 +44,9 @@ Xem số liệu đầy đủ tại [metrics.txt](results/metrics.txt)
 
 > Xem toàn bộ chi tiết trong file `metrics.txt` (hoặc notebook).
 
-### Gợi ý hình minh hoạ:
-- **GIF demo**: real-time dự đoán ký hiệu bằng camera.
-- **Ảnh confusion matrix**: trực quan độ chính xác từng lớp.
-- **Ảnh accuracy/loss curve**: quá trình train.
+### GIF demo
+![Demo](results/demo.gif)
+
 
 ---
 
