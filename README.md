@@ -45,7 +45,7 @@ Xem số liệu đầy đủ tại [metrics.txt](results/metrics.txt)
 > Xem toàn bộ chi tiết trong file `metrics.txt` (hoặc notebook).
 
 ### GIF demo
-![Demo](results/demo.gif)
+![Demo](results/Demo.gif)
 
 
 ---
