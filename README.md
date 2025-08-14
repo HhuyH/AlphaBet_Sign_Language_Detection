@@ -7,13 +7,15 @@ Dữ liệu được **tự thu thập và xử lý thủ công**, qua nhiều b
 
 ## 📌 Giới thiệu
 
-Ban đầu, mô hình được thử nghiệm với **Random Forest Classifier (RFC)** trên dữ liệu khung hình đầy đủ nhưng không tổng quát hoá được trên nhiều người dùng. Sau đó chuyển hướng:
+Dự án này tập trung vào **nhận diện ngôn ngữ ký hiệu ASL (33 ký hiệu)** bằng **Convolutional Neural Network (CNN)**, với mục tiêu hỗ trợ giao tiếp cho cộng đồng người khiếm thính.
 
-1. **Thu thập lại dữ liệu** chỉ vùng bàn tay.
-2. **Xử lý background** và áp dụng **augmentation**.
-3. Chuyển sang **CNN** để khai thác đặc trưng ảnh tốt hơn.
+Ban đầu, mô hình được thử nghiệm với **Random Forest Classifier (RFC)** trên dữ liệu khung hình đầy đủ, nhưng không tổng quát hoá tốt với nhiều người dùng. Để cải thiện, dự án đã:
 
-Kết quả cuối cùng đạt **94.62% accuracy** trên 33 ký hiệu.
+1. **Thu thập dữ liệu mới** chỉ tập trung vào vùng bàn tay.
+2. **Xử lý background và data augmentation** (xoay, lật, thay background) để tăng tính đa dạng của dữ liệu.
+3. **Chuyển sang CNN**, khai thác đặc trưng ảnh tốt hơn, đạt **94.62% accuracy** trên 33 ký hiệu.
+
+Hiện tại, dự án **tập trung vào thu thập dữ liệu, train mô hình và demo nhận diện ký tự**. Tầm nhìn dài hạn là phát triển thành **ứng dụng di động hoàn chỉnh**, cho phép tổng hợp câu, chuẩn hóa bằng LLM và hỗ trợ phát âm Text-to-Speech, hoặc ngược lại từ lời nói sang ký hiệu cho người khiếm thính.
 
 ---
 
@@ -127,7 +129,18 @@ Dataset.
 
 ## 🔮 Hướng phát triển
 
-- Tối ưu mô hình cho **real-time trên thiết bị di động**.
-- Mở rộng bộ ký hiệu hoặc tích hợp thành ứng dụng học ngôn ngữ ký hiệu.
+Ban đầu, dự án hướng tới việc phát triển một **ứng dụng di động hoàn chỉnh**, có khả năng:
 
----
+1. **Thu thập từng ký tự** từ người dùng thông qua camera, sử dụng Computer Vision để nhận diện.
+2. **Tổng hợp và chuẩn hóa câu** từ các ký tự nhận diện, sử dụng mô hình LLM để hiển thị câu hoàn chỉnh trên màn hình điện thoại.
+3. **Phát âm câu** thông qua giọng nói nhân tạo (Text-to-Speech) để hỗ trợ giao tiếp.
+4. **Chiều ngược lại**: từ lời nói của người bình thường, dịch sang ngôn ngữ ký hiệu cho người khiếm thính.
+
+Do **thời gian và nguồn lực hạn chế**, hiện tại dự án **chỉ dừng ở mức thu thập dữ liệu, train CNN và demo nhận diện ký tự riêng lẻ** (xem GIF demo).
+
+Tuy nhiên, tầm nhìn dài hạn vẫn là:
+
+* Mở rộng thành một **hệ thống giao tiếp toàn diện giữa người khiếm thính và người bình thường**.
+* Tối ưu mô hình cho **real-time trên thiết bị di động**.
+* Mở rộng bộ ký hiệu, kết hợp với **text-to-speech** và **LLM để chuẩn hóa câu**, tạo trải nghiệm trực quan và tương tác cao.
+
