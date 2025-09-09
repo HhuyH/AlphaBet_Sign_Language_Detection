@@ -21,7 +21,7 @@ Hiện tại, dự án **tập trung vào thu thập dữ liệu, train mô hìn
 
 ## Tính năng
 
-- Nhận diện **33 ký hiệu** trong ngôn ngữ ký hiệu tiếng Việt.
+- Nhận diện **33 ký hiệu** trong ngôn ngữ ký hiệu ASL.
 - Pipeline xử lý:
   - Loại bỏ background.
   - Crop vùng bàn tay.
