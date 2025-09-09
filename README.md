@@ -52,7 +52,7 @@ Xem số liệu đầy đủ tại [metrics.txt](results/metrics.txt)
 
 ---
 
-## 🛠 Cài đặt
+## Cài đặt
 
 ### Yêu cầu
 - Python 3.11.9
