@@ -5,7 +5,7 @@ Dữ liệu được **tự thu thập và xử lý thủ công**, qua nhiều b
 
 ---
 
-## 📌 Giới thiệu
+## Giới thiệu
 
 Dự án này tập trung vào **nhận diện ngôn ngữ ký hiệu ASL (33 ký hiệu)** bằng **Convolutional Neural Network (CNN)**, với mục tiêu hỗ trợ giao tiếp cho cộng đồng người khiếm thính.
 
@@ -19,7 +19,7 @@ Hiện tại, dự án **tập trung vào thu thập dữ liệu, train mô hìn
 
 ---
 
-## 🚀 Tính năng
+## Tính năng
 
 - Nhận diện **33 ký hiệu** trong ngôn ngữ ký hiệu tiếng Việt.
 - Pipeline xử lý:
@@ -30,7 +30,7 @@ Hiện tại, dự án **tập trung vào thu thập dữ liệu, train mô hìn
 
 ---
 
-## 📊 Kết quả
+## Kết quả
 
 - **Accuracy cuối cùng:** 94.62%
 - Dataset gồm **33 lớp (0–32)**, hàng nghìn mẫu mỗi lớp.
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Cách chạy
+## Cách chạy
 
 Hiện dự án được triển khai trong **một notebook duy nhất**:  
 `Convolutional Neural Network.ipynb`
@@ -108,7 +108,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 Dataset.
 
@@ -127,7 +127,7 @@ Dataset.
 
 ---
 
-## 🔮 Hướng phát triển
+## Hướng phát triển
 
 Ban đầu, dự án hướng tới việc phát triển một **ứng dụng di động hoàn chỉnh**, có khả năng:
 
